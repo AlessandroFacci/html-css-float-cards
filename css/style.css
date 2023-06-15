@@ -17,3 +17,18 @@ img {
   margin: 0 auto;
   padding: 0;
 }
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.debug {
+  border: 2px solid black;
+}
+
+.card {
+  width: calc(100% / 3);
+  float: left;
+}
